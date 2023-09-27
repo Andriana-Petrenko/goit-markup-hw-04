@@ -295,6 +295,9 @@ img {
     gap: 24px;
 }
 
+.list-soc{
+
+}
 .icon-soc{
     background-color: #4D5AE5;
     display: flex;
@@ -311,7 +314,8 @@ img {
 }
 
 
-.icon-soc:hover {
+.icon-soc:hover,
+.icon-soc:focus{
     background-color: #404BBF;
 
 }
@@ -433,6 +437,11 @@ img {
     gap: 16px;
     
 }
+
+.list-soc-end{
+    
+}
+
 .icon-soc-end {
     background-color: #4D5AE5;
     display: flex;
