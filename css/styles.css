@@ -91,11 +91,6 @@ img {
     
 }
 
-.page{
-    position: relative;
-    color: #404bbf;
-}
-
 .nav-link:active,
 .nav-link:hover,
 .nav-link:focus {
@@ -103,6 +98,10 @@ img {
   
 }
 
+.page{
+    position: relative;
+    color: #404bbf;
+}
 
 .page::after{
     content: "";
@@ -113,8 +112,7 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: #404bbf;
-    
-
+  
 }
 
 .container-adrs {
@@ -147,12 +145,13 @@ img {
 .basic {
     background-color:#2E2F42;
     background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(/images/background.jpg);
+    url(../images/background.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
     padding: 188px 0;
     max-width: 1440px;
+    margin: 0 auto;
 
 }
 
@@ -199,9 +198,7 @@ img {
 .container-section {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    
-   
+    gap: 24px; 
 }
 
 .list-work{
@@ -212,13 +209,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 264px;
     height: 112px;
     background-color: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
     border: 1px solid #8E8F99;
-    padding: 24px 100px;
 }
 
 .item-work{
@@ -226,7 +221,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    
 }
 
 .team {
@@ -299,6 +293,7 @@ img {
 .list-soc{
 
 }
+
 .icon-soc{
     background-color: #4D5AE5;
     display: flex;
@@ -309,8 +304,6 @@ img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    padding: 12px 12px;
-    flex-shrink: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -402,7 +395,6 @@ img {
     margin-right: 120px;
 }
 
-
 .logo-link{
     display: inline-block;
     margin-bottom: 16px;
@@ -421,7 +413,6 @@ img {
     display: inline-block;
 }
 
-
 .media{
     color: #FFFFFF;
     font-size: 16px;
@@ -435,8 +426,7 @@ img {
 .icon-box-end {
     display: flex;
     justify-content: center;
-    gap: 16px;
-    
+    gap: 16px; 
 }
 
 .list-soc-end{
@@ -453,8 +443,6 @@ img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    padding: 12px 12px;
-    flex-shrink: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -462,7 +450,6 @@ img {
 .icon-soc-end:focus{
     background-color: #31d0aa;
 }
-
 
 .end {
     color: #F4F4FD;
