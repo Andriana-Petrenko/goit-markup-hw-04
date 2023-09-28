@@ -216,6 +216,9 @@ img {
     border: 1px solid #8E8F99;
 }
 
+.icon-work{
+    fill: currentColor;
+}
 .item-work{
     color: #434455;
     font-size: 16px;
